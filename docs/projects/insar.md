@@ -15,8 +15,8 @@
 
 - Wybór analizowanego epizodu (np. [wulkan Fernandina - Galápagos Islands, Ecuador](https://mintpy.readthedocs.io/en/latest/demo_dataset/#sentinel-1_on_fernandina_with_isce2topsstack))
 - Korekcja geometryczna i radiometryczna
-- Tworzenie interferogramów – porównanie fazy fali radarowej
-- Persistent Scatterer Interferometry (PS-InSAR) – analiza długoterminowych zmian wysokości
-- Small Baseline Subset (SBAS) – krótkoterminowe zmiany
+- Tworzenie interferogramów - porównanie fazy fali radarowej
+- Persistent Scatterer Interferometry (PS-InSAR) - analiza długoterminowych zmian wysokości
+- Small Baseline Subset (SBAS) - krótkoterminowe zmiany
 - Konwersja różnic fazowych na wartości wysokościowe
 - Wizualizacja - mapy deformacji, wykresy zmian

@@ -19,7 +19,7 @@
 
 - Pobranie i wstępne przetwarzanie danych (korekcja atmosferyczna, maskowanie chmur)
 - Obliczenie wskaźników spektralnych (NDWI, MNDWI, AWEI) i wyznaczenie optymalnego progu binaryzacji (np. Otsu)
-- Porównanie wskaźników – analiza wyników na różnych typach środowisk (tereny zurbanizowane, lasy, obszary wiejskie)
+ - Porównanie wskaźników - analiza wyników na różnych typach środowisk (tereny zurbanizowane, lasy, obszary wiejskie)
 - Zastosowanie klasyfikatora ML (Random Forest, SVM) z cechami spektralnymi i przestrzennymi
 - Segmentacja semantyczna z użyciem modelu U-Net na danych Sentinel-1/2
 - Walidacja wyników względem JRC Global Surface Water lub Dynamic World

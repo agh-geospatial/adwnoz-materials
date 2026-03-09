@@ -15,11 +15,11 @@
 - Ekstrakcja cech spektralnych - obliczenie wskaźników spektralnych (np. NDVI czy MSAVI - zmiany wegetacji, NDWI - zmiany dot. zasięgu wód powierzchniowych, NBR - wykrywanie pożarów)
 - Wykrywanie anomalii
     - Metody statystyczne (reguły odstające):
-        - Z-score – oznaczanie wartości odległych od średniej o więcej niż X odchyleń standardowych
-        - Percentylowa analiza progowa – wykrywanie wartości powyżej 95. lub poniżej 5. percentyla dla danego obszaru i wskaźnika spektralnego
-        - Metody bazujące na głównych składowych (PCA) – analiza kierunków największej wariancji i identyfikacja punktów odstających
+        - Z-score - oznaczanie wartości odległych od średniej o więcej niż X odchyleń standardowych
+        - Percentylowa analiza progowa - wykrywanie wartości powyżej 95. lub poniżej 5. percentyla dla danego obszaru i wskaźnika spektralnego
+        - Metody bazujące na głównych składowych (PCA) - analiza kierunków największej wariancji i identyfikacja punktów odstających
     - Metody wykrywania anomalii oparte na ML (unsupervised learning):
-        - Isolation Forest – model izolujący nietypowe obserwacje (np. nagłe zmiany NDVI po wylesieniu).
-        - Local Outlier Factor (LOF) – wykrywanie anomalii poprzez analizę gęstości punktów w przestrzeni cech spektralnych.
-        - DBSCAN – grupowanie anomalii na podstawie gęstości obserwacji (pozwala wykrywać lokalne zmiany w środowisku).
-        - Autoenkodery (AE) – redukcja wymiarowości i wykrywanie nietypowych pikseli poprzez różnicę między rekonstrukcją a rzeczywistym obrazem.
+        - Isolation Forest - model izolujący nietypowe obserwacje (np. nagłe zmiany NDVI po wylesieniu).
+        - Local Outlier Factor (LOF) - wykrywanie anomalii poprzez analizę gęstości punktów w przestrzeni cech spektralnych.
+        - DBSCAN - grupowanie anomalii na podstawie gęstości obserwacji (pozwala wykrywać lokalne zmiany w środowisku).
+        - Autoenkodery (AE) - redukcja wymiarowości i wykrywanie nietypowych pikseli poprzez różnicę między rekonstrukcją a rzeczywistym obrazem.
