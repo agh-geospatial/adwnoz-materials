@@ -1,0 +1,72 @@
+site_name: Analiza danych w naukach o Ziemi
+docs_dir: docs
+repo_url: https://github.com/eo-agh/data-analysis-earth-sciences
+
+copyright: Copyright 2024 Jakub Staszel KGiIS AGH
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True
+      execute: false
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+
+nav:
+  - Strona główna: index.md
+  - Wybrany projekt:
+    - 📋 Opis: my_project/desc.md
+    - Log: my_project/log.md
+  - Przykłady:
+    - 👽 STAC: stac.ipynb
+    - 👽 GeoParquet: geoparquet.ipynb
+  - Projekty:
+    - Sposób prowadzenia projektów: projects/ways_of_working.md
+    - Tematy:
+      - Detekcja powierzchni wody na zdjęciach satelitarnych: projects/water_detection.md
+      - Porównanie przestrzennych modeli wilgotności gleby: projects/soil_moisture_models.md
+      - Zunifikowany dostęp do nachylenia terenu: projects/slope_data.md
+      - Cyfrowa wersja map glebowych: projects/digital_soil_map.md
+      - Zmiany klimatyczne w miastach: projects/meteo_data_for_cities.md
+      - Wykrywanie anomalii na optycznych danych sat.: projects/anomalies_sentinel2.md
+      - Analiza zmian w użytkowaniu terenu: projects/lulc.md
+      - Wykrywanie zmian wysokości terenu: projects/insar.md
+      - Analiza przestrzenna dla przejazdów karetek w Małopolsce: projects/ambulances.md
+      - Modele nadrozdzielcze danych Sentinel-2: projects/sr.md
+      - Inne: projects/other.md 
